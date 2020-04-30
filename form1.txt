@@ -1,0 +1,86 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp6
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox4.Items.Clear();
+            if (comboBox3.SelectedItem == "Adult")
+            {
+                comboBox4.Items.Add("13 - 50");
+                comboBox4.Items.Add("51 - 80");
+            }
+            else if (comboBox3.SelectedItem == "Child")
+            {
+
+                comboBox4.Items.Add("0 - 3");
+                comboBox4.Items.Add("4 - 12");
+            }
+
+        }
+
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox5.Items.Clear();
+            if (comboBox4.SelectedItem == "13-50")
+            {
+                comboBox5.Items.Add(1350);
+            }
+            else if (comboBox4.SelectedItem == "51-80")
+            {
+                comboBox5.Items.Add(1000);
+            }
+            else if (comboBox4.SelectedItem=="0-3")
+            {
+                comboBox5.Items.Add(0);
+            }
+            else if (comboBox4.SelectedItem == "4-12")
+            {
+                comboBox5.Items.Add(600);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBox3.Items.Add("Adult");
+            comboBox3.Items.Add("Child");
+            comboBox4.Items.Add("0-3");
+            comboBox4.Items.Add("4-12");
+            comboBox4.Items.Add("13-50");
+            comboBox4.Items.Add("51-80");
+            comboBox5.Items.Add("1350");
+            comboBox5.Items.Add("1000");
+            comboBox5.Items.Add("0");
+            comboBox5.Items.Add("600");
+        }
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
