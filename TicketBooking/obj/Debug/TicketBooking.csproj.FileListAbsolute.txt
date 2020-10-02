@@ -1,0 +1,11 @@
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\bin\Debug\TicketBooking.exe.config
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\bin\Debug\TicketBooking.exe
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\bin\Debug\TicketBooking.pdb
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\obj\Debug\TicketBooking.csprojAssemblyReference.cache
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\obj\Debug\TicketBooking.Form1.resources
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\obj\Debug\TicketBooking.Properties.Resources.resources
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\obj\Debug\TicketBooking.csproj.GenerateResource.cache
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\obj\Debug\TicketBooking.csproj.CoreCompileInputs.cache
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\obj\Debug\TicketBooking.exe
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\obj\Debug\TicketBooking.pdb
+C:\Users\Isaac\Documents\GitHub\program\TicketBooking\obj\Debug\TicketBooking.Form2.resources
